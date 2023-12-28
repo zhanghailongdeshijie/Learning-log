@@ -3,3 +3,23 @@
 记录第一条日志
 
 git和github使用
+
+```
+git pull origin main
+# 如果有冲突，手动解决冲突后保存文件
+git push origin main
+```
+
+fatal: couldn't find remote ref mian：
+
+```
+git pull --rebase origin master
+git push origin master
+```
+
+<img src="C:\Users\11485\Desktop\Learning log\LOG\image-20231228180839017.png" alt="image-20231228180839017" style="zoom:33%;" />
+
+```
+git pull origin newbranch1
+git push origin newbranch1
+```
