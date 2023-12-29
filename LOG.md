@@ -23,3 +23,11 @@ git push origin master
 git pull origin newbranch1
 git push origin newbranch1
 ```
+
+#### ？2023年12月29日10点13分
+
+pll_ip学习项目波形总是不显示，红色蓝色直线，未解决？
+
+![image-20231229101315517](C:\Users\11485\Desktop\Learning log\LOG\image-20231229101315517.png)
+
+VGA驱动项目的 clk_gen 模块完成，没使用IP核，无法使用

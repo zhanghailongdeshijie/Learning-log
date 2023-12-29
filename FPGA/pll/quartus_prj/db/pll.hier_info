@@ -1,13 +1,13 @@
 |pll
 sys_clk => sys_clk.IN1
-clk_mul_2 <= pll_ip:pll_ip_inst.c0
-clk_div_2 <= pll_ip:pll_ip_inst.c1
-clk_phase_90 <= pll_ip:pll_ip_inst.c2
-clk_ducle_20 <= pll_ip:pll_ip_inst.c3
-locked <= pll_ip:pll_ip_inst.locked
+clk_mul_2 <= pll_ip:pll_ip_int.c0
+clk_div_2 <= pll_ip:pll_ip_int.c1
+clk_phase_90 <= pll_ip:pll_ip_int.c2
+clk_ducle_20 <= pll_ip:pll_ip_int.c3
+locked <= pll_ip:pll_ip_int.locked
 
 
-|pll|pll_ip:pll_ip_inst
+|pll|pll_ip:pll_ip_int
 inclk0 => sub_wire7[0].IN1
 c0 <= altpll:altpll_component.clk
 c1 <= altpll:altpll_component.clk
@@ -16,7 +16,7 @@ c3 <= altpll:altpll_component.clk
 locked <= altpll:altpll_component.locked
 
 
-|pll|pll_ip:pll_ip_inst|altpll:altpll_component
+|pll|pll_ip:pll_ip_int|altpll:altpll_component
 inclk[0] => pll_ip_altpll:auto_generated.inclk[0]
 inclk[1] => pll_ip_altpll:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
@@ -76,7 +76,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|pll|pll_ip:pll_ip_inst|altpll:altpll_component|pll_ip_altpll:auto_generated
+|pll|pll_ip:pll_ip_int|altpll:altpll_component|pll_ip_altpll:auto_generated
 clk[0] <= pll1.CLK
 clk[1] <= pll1.CLK1
 clk[2] <= pll1.CLK2

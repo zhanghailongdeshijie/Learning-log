@@ -26,7 +26,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {f:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:45 on Dec 27,2023
+# Start time: 21:53:37 on Dec 28,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver f:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -104,7 +104,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 17:03:45 on Dec 27,2023, Elapsed time: 0:00:00
+# End time: 21:53:37 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -115,7 +115,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {f:/altera/13.0sp1/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:45 on Dec 27,2023
+# Start time: 21:53:37 on Dec 28,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver f:/altera/13.0sp1/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -179,7 +179,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 17:03:45 on Dec 27,2023, Elapsed time: 0:00:00
+# End time: 21:53:37 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -190,7 +190,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {f:/altera/13.0sp1/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:46 on Dec 27,2023
+# Start time: 21:53:38 on Dec 28,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver f:/altera/13.0sp1/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -232,7 +232,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 17:03:46 on Dec 27,2023, Elapsed time: 0:00:00
+# End time: 21:53:38 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -243,7 +243,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {f:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:47 on Dec 27,2023
+# Start time: 21:53:39 on Dec 28,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver f:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -368,7 +368,7 @@
 # 	altserial_flash_loader
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 17:03:48 on Dec 27,2023, Elapsed time: 0:00:01
+# End time: 21:53:40 on Dec 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -379,7 +379,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {f:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:48 on Dec 27,2023
+# Start time: 21:53:42 on Dec 28,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver f:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling module altera_pll
@@ -437,7 +437,7 @@
 # 	generic_device_pll
 # 	altera_mult_add
 # 	altera_pll_reconfig_tasks
-# End time: 17:03:49 on Dec 27,2023, Elapsed time: 0:00:01
+# End time: 21:53:45 on Dec 28,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -448,7 +448,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {f:/altera/13.0sp1/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:49 on Dec 27,2023
+# Start time: 21:53:48 on Dec 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver f:/altera/13.0sp1/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -524,13 +524,14 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 17:03:50 on Dec 27,2023, Elapsed time: 0:00:01
+# End time: 21:53:48 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is zhanghailong@DESKTOP-EFVD20R.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is zhanghailong@DESKTOP-EFVD20R.
 # vlib rtl_work
 # ** Warning: (vlib-34) Library already exists at "rtl_work".
 # vmap work rtl_work
@@ -538,51 +539,51 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/rti {C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/rti/pll.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/Learning\ log/FPGA/pll/rti {C:/Users/11485/Desktop/Learning log/FPGA/pll/rti/pll.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:50 on Dec 27,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/rti" C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/rti/pll.v 
+# Start time: 21:53:49 on Dec 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/Learning log/FPGA/pll/rti" C:/Users/11485/Desktop/Learning log/FPGA/pll/rti/pll.v 
 # -- Compiling module pll
 # 
 # Top level modules:
 # 	pll
-# End time: 17:03:51 on Dec 27,2023, Elapsed time: 0:00:01
+# End time: 21:53:49 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/ipcore_dir {C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/ipcore_dir/pll_ip.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/Learning\ log/FPGA/pll/quartus_prj/ipcore_dir {C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/ipcore_dir/pll_ip.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:51 on Dec 27,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/ipcore_dir" C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/ipcore_dir/pll_ip.v 
+# Start time: 21:53:49 on Dec 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/ipcore_dir" C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/ipcore_dir/pll_ip.v 
 # -- Compiling module pll_ip
 # 
 # Top level modules:
 # 	pll_ip
-# End time: 17:03:51 on Dec 27,2023, Elapsed time: 0:00:00
+# End time: 21:53:49 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/db {C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/db/pll_ip_altpll.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/Learning\ log/FPGA/pll/quartus_prj/db {C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/db/pll_ip_altpll.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:51 on Dec 27,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/db" C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/db/pll_ip_altpll.v 
+# Start time: 21:53:49 on Dec 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/db" C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/db/pll_ip_altpll.v 
 # -- Compiling module pll_ip_altpll
 # 
 # Top level modules:
 # 	pll_ip_altpll
-# End time: 17:03:51 on Dec 27,2023, Elapsed time: 0:00:00
+# End time: 21:53:49 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/../sim {C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/../sim/tb_pll.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/11485/Desktop/Learning\ log/FPGA/pll/quartus_prj/../sim {C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/../sim/tb_pll.v}
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 17:03:51 on Dec 27,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/../sim" C:/Users/11485/Desktop/learning/FPGA/FPGAprj/pll/quartus_prj/../sim/tb_pll.v 
+# Start time: 21:53:49 on Dec 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/../sim" C:/Users/11485/Desktop/Learning log/FPGA/pll/quartus_prj/../sim/tb_pll.v 
 # -- Compiling module tb_pll
 # 
 # Top level modules:
 # 	tb_pll
-# End time: 17:03:51 on Dec 27,2023, Elapsed time: 0:00:00
+# End time: 21:53:49 on Dec 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  pll
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" pll 
-# Start time: 17:03:51 on Dec 27,2023
+# Start time: 21:53:49 on Dec 28,2023
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading work.pll(fast)
 # Loading work.pll_ip(fast)
@@ -597,15 +598,30 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: zhanghailong  Hostname: DESKTOP-EFVD20R  ProcessID: 12364
-#           Attempting to use alternate WLF file "./wlftm4v8e8".
+#           Attempting to use alternate WLF file "./wlftez3reg".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftm4v8e8
+#           Using alternate file: ./wlftez3reg
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 1 us
+# run 100 ms
+add wave -position insertpoint sim:/pll/pll_ip_int/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.pll(fast)
+# Loading work.pll_ip(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+run
+run
+run
 # Causality operation skipped due to absence of debug database file
-# End time: 18:13:07 on Dec 28,2023, Elapsed time: 25:09:16
+# End time: 10:27:13 on Dec 29,2023, Elapsed time: 12:33:24
 # Errors: 0, Warnings: 3

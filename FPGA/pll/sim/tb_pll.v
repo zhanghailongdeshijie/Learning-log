@@ -11,14 +11,11 @@ wire    clk_ducle_20    ;
 wire    locked          ;
 
 
-initial begin
-    sys_clk     = 1'b1;
-end
+initial sys_clk = 1'b1;
+always #10 sys_clk = ~sys_clk;
 
 
-always  #10 sys_clk = ~sys_clk;
-
-pll pll_inst
+pll pll_int
 (
     .sys_clk       (sys_clk     ),
 
@@ -26,10 +23,8 @@ pll pll_inst
     .clk_div_2     (clk_div_2   ), 
     .clk_phase_90  (clk_phase_90), 
     .clk_ducle_20  (clk_ducle_20), 
-    .locked        (locked      )
-    
+    .locked        (locked      )  
 );
-
-
-
 endmodule
+
+

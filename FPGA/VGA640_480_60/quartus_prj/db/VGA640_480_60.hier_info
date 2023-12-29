@@ -1,0 +1,15 @@
+|clk_gen
+sys_clk => c0~reg0.CLK
+sys_clk => cnt[0].CLK
+sys_clk => cnt[1].CLK
+sys_clk => inclk0.DATAIN
+sys_rst_n => areset.DATAIN
+sys_rst_n => c0~reg0.ACLR
+sys_rst_n => cnt[0].ACLR
+sys_rst_n => cnt[1].ACLR
+c0 <= c0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+locked <= <GND>
+inclk0 <= sys_clk.DB_MAX_OUTPUT_PORT_TYPE
+areset <= sys_rst_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
